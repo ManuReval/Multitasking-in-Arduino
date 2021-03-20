@@ -20,7 +20,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 current_val_ms = millis();
 
-//200ms task
+//20ms task
 if( (current_val_ms - task20_ms) >= TASK_20MS_ACTIVE )
 {
   task20_ms = current_val_ms;
