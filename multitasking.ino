@@ -36,7 +36,7 @@ if( (current_val_ms - task500_ms) >= TASK_500MS_ACTIVE )
 {
   task500_ms = current_val_ms;
 
-  if( switch_state == 1 )
+  if( switch_state)
   {
     led_state = led_state^1;
     digitalWrite(10,led_state);
